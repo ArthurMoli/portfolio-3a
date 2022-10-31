@@ -1,0 +1,104 @@
+*{
+    text-align:center;
+    margin:0;
+    border:0;
+  }
+  header{
+    text-align:center;
+    color:white;
+    font-family:Tahoma;
+    background-color:black;
+    padding:30px;
+    box-shadow: 0 0 1em aquamarine;
+  }
+  .bloco{
+    font-family:Tahoma;
+    border-bottom:solid 2px black;
+    width:31%;
+    position:relative;
+    left:35%;
+  }
+  p{
+    font-family:Tahoma;
+  }
+  .techs{
+    border-bottom:solid 2px black;
+    width:31%;
+    position:relative;
+    left:35%;
+  }
+  .slider label {
+      background-color: #000;
+      bottom: 10px;
+      cursor: pointer;
+      display: block;
+      height: 10px;
+      position: absolute;
+      width: 10px;
+      z-index: 10;
+  }
+  
+  .slider li:nth-child(1) label {
+      left: 10px;
+  }
+  
+  .slider li:nth-child(2) label {
+      left: 40px;
+  }
+  
+  .slider li:nth-child(3) label {
+      left: 70px;
+  }
+  .slider img {
+      opacity: 0;
+      visibility: hidden;
+  }
+  
+  .slider li input:checked ~ img {
+      opacity: 1;
+      visibility: visible;
+      z-index: 10;
+  }
+  .slider input {
+      display: none;
+  }
+  .slider {
+      display: block;
+      height: 293px;
+      width: 600px;
+      margin: auto;
+      margin-top: 20px;
+      position: relative;
+  }
+  
+  .slider li {
+      list-style: none;
+      position: absolute;
+  }
+  
+  .slider img {
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      vertical-align: top;
+  }
+  .navbarr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 31%;
+    gap:30px;   
+}
+a{
+padding: 4px;
+background-color: blueviolet;
+color: white;
+font-family: Tahoma;
+border-radius: 4px;
+text-decoration: none;
+}
+a:hover{
+box-shadow: 0 0 1em aquamarine;
+color: aquamarine;
+}
