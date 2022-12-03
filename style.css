@@ -91,14 +91,57 @@
     gap:30px;   
 }
 a{
-padding: 4px;
+padding: 6px;
 background-color: blueviolet;
 color: white;
 font-family: Tahoma;
 border-radius: 4px;
 text-decoration: none;
 }
-a:hover{
-box-shadow: 0 0 1em aquamarine;
-color: aquamarine;
+
+  button{
+  border-radius: 5px;
+  }
+  .humCabeca{
+  padding: 70px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Physical_World_Map.svg/440px-Physical_World_Map.svg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.natCabeca{
+  padding: 70px;
+  background-image: url(https://images.even3.com.br/ApYyFTZRZEZUdTYfgqW5vOgfgg8=/1300x536/smart/even3.blob.core.windows.net/banner/Designsemnome1.175dd8661dfc45c5a1f9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.matCabeca{
+  padding: 70px;
+  background-image: url('img/math.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+}
+.lingCabeca{
+  padding: 70px;
+  background-image: url('https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/languages-signpost.jpg?itok=VSbR4uZ9');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+}
+.sobHead{
+  padding: 70px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkVUY5dzR7kZcmoVRJFfLahatbnuoc_1sRkw&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+}
+.fotos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;}
